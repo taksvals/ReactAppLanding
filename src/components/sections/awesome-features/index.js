@@ -18,7 +18,7 @@ function AwesomeFeatures() {
                     <img className="awesome-img" src={featuresPhone} alt="" />
                     <div>
                         <Text   
-                            headingSize={36}   
+                            headingSize="average"   
                             heading="Awesome apps features" 
                             text="Increase productivity with a simple to-do app. 
                             app for managing your personal budgets." 

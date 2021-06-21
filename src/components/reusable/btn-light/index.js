@@ -1,8 +1,8 @@
 import './style.css';
 
-function BtnLight({title}) {
+function BtnLight({title, href}) {
   return (
-    <a className="btn-light">
+    <a className="btn-light" href={href}>
         {title}
     </a>
   );

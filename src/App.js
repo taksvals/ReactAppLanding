@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from 'react-dom';
 import Navbar from './components/sections/navbar';
 import Home from './components/sections/home';
 import Partners from './components/sections/parthers';

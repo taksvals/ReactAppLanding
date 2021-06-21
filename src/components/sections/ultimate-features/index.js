@@ -21,7 +21,7 @@ function UltimateFeatures() {
                 <div>
 
                     <Text   
-                        headingSize={36}   
+                        headingSize="average"     
                         heading="Ultimate features that we built" 
                         text="The rise of mobile devices transforms the way
                         we consume information entirely." 

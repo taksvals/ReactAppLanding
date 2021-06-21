@@ -2,7 +2,7 @@ import './style.css';
 
 function Heading({headingSize, heading}) {
   return (
-    <h1 className={headingSize === 40 ? "large" : "average"}>
+    <h1 className={headingSize}>
         {heading}
     </h1>
   );

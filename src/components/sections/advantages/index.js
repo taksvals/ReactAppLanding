@@ -18,7 +18,7 @@ function Advantages() {
         <div className="container">
 
             <Text   
-                headingSize={36}   
+                headingSize="average"     
                 heading="Why you should choose our app" 
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Incidunt aspernatur corporis culpa reiciendis, magnam non aliquam. Quasi architecto nihil magni?" 

@@ -29,19 +29,17 @@ function Home() {
                             align="left"
                         />
                         <div>
-                            <a href="#try-for-free">
-                                <BtnPrimary 
-                                title="Try for free"
-                                />
-                            </a>
-                            <a href="#">
-                                <BtnLight 
-                                title="Watch demo video"
-                                />
-                            </a>
+                            <BtnPrimary 
+                            title="Try for free"
+                            href="#try-for-free"
+                            />
+                            <BtnLight 
+                            title="Watch demo video"
+                            href="#"
+                            />
                         </div>
                     </div>
-                    <img src={home} />
+                    <img src={home} alt="home-img"/>
                 </div>
             </div>
         </section>

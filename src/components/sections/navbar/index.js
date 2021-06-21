@@ -11,7 +11,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="container">
                 <div className="navbar-grid">
-                    <a href="#"><img src={logo} className="logo"/></a>
+                    <a href="#"><img src={logo} className="logo" alt="logo"/></a>
                     <div className="cf">
                         <NavLinks />
                         {/* <a href='#' id='openup'>MENU</a> */}

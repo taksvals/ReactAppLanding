@@ -10,7 +10,7 @@ function Jackpot() {
                 <div className="jackpot-heading">
                     <Heading 
                         heading="Smart jackpots that you may love this anytime & anywhere."
-                        headingSize={40}
+                        headingSize="large"
                     />
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio placeat 

@@ -15,7 +15,7 @@ function Integration() {
                 <img src={integration} alt="" />
                 <div>
                     <Text   
-                        headingSize={36}   
+                        headingSize="average"   
                         heading="Designed & build by the latest code integration" 
                         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Quam aperiam voluptatum hic temporibus suscipit! 

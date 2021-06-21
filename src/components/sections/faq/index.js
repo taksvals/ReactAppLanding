@@ -41,11 +41,11 @@ function FAQ() {
 
   return (
     <div id="faq">
-    <section class="faq-section">
-        <div class="container">
-            <div class="faq-header py-2">
+    <section className="faq-section">
+        <div className="container">
+            <div className="faq-header">
                 <Text   
-                    headingSize={36}   
+                    headingSize="large"  
                     heading="Frequently asked questions" 
                     text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Laudantium temporibus laboriosam dolore eius id nostrum quisquam dicta 
@@ -54,7 +54,7 @@ function FAQ() {
                 />
             </div>
 
-            <div class="py-2">
+            <div>
                 <div className="accordion">
                     {accordionData.map(({ heading, text }) => (
                     <FaqItem heading={heading} text={text} />

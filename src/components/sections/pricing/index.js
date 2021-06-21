@@ -15,15 +15,6 @@ class Pricing extends Component {
         this.setState({ value });
     };
 
-    // onClick = e => {
-    //     let {value} = e.target;
-    //     this.setState = {
-    //         value: !(value)
-    //     }
-    //     console.log(value);
-    // }
-
-
     render() {
         const {value} = this.state;
         return (
@@ -31,7 +22,7 @@ class Pricing extends Component {
                 <section className="pricing-section">
                     <div className="container">
                         <Text   
-                            headingSize={36}   
+                            headingSize="average"     
                             heading="Get awesome features, without extra charges" 
                             text="The rise of mobile devices transforms the way we consume
                             information entirely and the world's most elevant channels
@@ -42,8 +33,16 @@ class Pricing extends Component {
                         <div>
                             <div>
                                 <div>
-                                    <label><input type="radio" name="sub" value={0} checked={value === 0} onClick={(e) => this.radioHandler(0)}/> Monthly</label>
-                                    <label><input type="radio" name="sub" value={1} checked={value === 1} onClick={(e) => this.radioHandler(1)}/> Annually</label>
+                                    <div className="form_toggle">
+                                        <div className="form_toggle-item item-1">
+                                            <input id="fid-1" type="radio" name="sub" value={0} checked={value === 0} onChange={(e) => this.radioHandler(0)}/> 
+                                            <label htmlFor="fid-1"> Monthly</label>
+                                        </div>
+                                        <div className="form_toggle-item item-2">
+                                            <input id="fid-2" type="radio" name="sub" value={1} checked={value === 1} onChange={(e) => this.radioHandler(1)}/> 
+                                            <label htmlFor="fid-2"> Annually</label>
+                                        </div>
+                                    </div>
                                     {value === 0 && 
                                         <div className="monthly">
                                             <div className="pricing-grid">

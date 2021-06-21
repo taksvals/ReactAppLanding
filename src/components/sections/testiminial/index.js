@@ -1,6 +1,4 @@
 import './style.css';
-import Text from '../../reusable/text';
-import TestiminialItem from '../../reusable/testiminial-item';
 import Slider from '../testiminial-slider';
 
 // Person img

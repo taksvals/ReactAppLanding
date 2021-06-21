@@ -1,10 +1,8 @@
 import './style.css';
 
-function BtnPrimary({title}) {
+function BtnPrimary({title, href}) {
   return (
-    <a className="btn-primary">
-        {title}
-    </a>
+    <a className="btn-primary" href={href}>{title}</a>
   );
 }
 
