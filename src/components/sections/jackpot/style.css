@@ -1,0 +1,26 @@
+.jackpot-section .smart-jackpot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.jackpot-section .jackpot-heading {
+    border-right: 1px solid #9b9ca0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .jackpot-section .smart-jackpot-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .jackpot-section  .jackpot-heading {
+        text-align: center;
+        border-right: none;
+        padding-bottom: 2rem;
+        border-right: none;
+        border-bottom: 1px solid #9b9ca0;
+    }
+}

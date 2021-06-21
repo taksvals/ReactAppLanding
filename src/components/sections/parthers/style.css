@@ -1,0 +1,27 @@
+.companies-section {
+    text-align: center;
+}
+
+.companies-section .companies-grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies-section .companies-grid img {
+    width: 170px;
+}
+
+@media screen and (max-width:900px) {
+    .companies-section  .companies-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .companies-section .companies-grid img {
+        max-width: 170px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+}

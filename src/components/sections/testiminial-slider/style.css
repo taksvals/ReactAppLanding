@@ -1,0 +1,15 @@
+.prev {
+    position: absolute;
+    right: 60px;
+    border-radius: 50%;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
+  
+.prev:hover, .next:hover {
+    background-color: #d2d7dd;
+}

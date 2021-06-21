@@ -1,0 +1,19 @@
+h1 {
+    color: #242f51;
+    font-family: 'Poppins SemiBold';
+    padding: 1rem 0;
+}
+
+.large {
+    font-size: 40px;
+}
+
+.average {
+    font-size: 36px;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        padding: 0.5rem 0;
+    }
+}

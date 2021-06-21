@@ -1,0 +1,23 @@
+.mySlides {
+    padding: 50px;
+}
+
+.person-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-grid .icon {
+    width: 90px;
+}
+
+.person-grid h6 {
+    font-size: 18px;
+    color: #242f51;
+}
+
+.person-grid p {
+    font-size: 18px;
+}

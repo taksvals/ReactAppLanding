@@ -1,0 +1,26 @@
+.awesome-features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .awesome-features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .awesome-features-grid .awesome-features-heading {
+        text-align: center;
+    } 
+
+    .awesome-features-grid .awesome-img {
+        max-width: 550px;
+        margin: auto;
+    }
+
+}
+
+

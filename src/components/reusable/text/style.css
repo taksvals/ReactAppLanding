@@ -1,0 +1,15 @@
+.text-item .center {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.text-item .left {
+    text-align: left;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 900px){
+    .text-item .left {
+        text-align: center;
+    }
+}

@@ -1,0 +1,36 @@
+.logo {
+    margin-top: 1rem;
+    width: 125px;
+}
+  
+.navbar {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+  
+.navbar .container {
+    margin-top: 0;
+}
+  
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        height: auto;
+        border-bottom: 0;
+        padding-top: 0;
+    }
+
+    .navbar .navbar-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar .container {
+        padding: 0;
+    }
+}

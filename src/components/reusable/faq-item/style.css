@@ -1,0 +1,28 @@
+.accordion-item {
+    background-color: #f5f7fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.accordion-item .accordion {
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion-item .panel {
+    background-color: #f5f7fa;
+    transition: max-height 0.2s ease-out;
+    padding: 0 2rem 0 1rem;
+    font-size: 16px;
+    color: #616368;
+    margin-top: 0.5rem;
+    font-weight: 100;
+
+}

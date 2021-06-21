@@ -1,0 +1,53 @@
+.feature-item .icon {
+    width: 86px;
+}
+
+h6 {
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+.pink {
+    color: #f55767;
+}
+
+.blue {
+    color: #2563ff;
+}
+
+.green {
+    color: #40975f;
+}
+
+.primary {
+    color: #242f51;
+}
+
+.feature-item .center {
+    text-align: center;
+}
+
+.feature-item .left {
+    text-align: left;
+}
+
+.feature-item .grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .feature-item .grid{
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .feature-item .left {
+        text-align: center;
+    }
+
+}
